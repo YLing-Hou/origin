@@ -17,6 +17,15 @@ class ViewController: UIViewController {
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
         return tableView
     }()
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     private let dataList: [String] = (1...30).map { "\($0)" }
 
